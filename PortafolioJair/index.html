@@ -17,13 +17,14 @@
 			</div>
 			<nav id="nav">
 				<ul>
-					<li><a href="#inicio">Inicio</a></li>
-					<li><a href="#acerca-de-mi">Acerca de mí</a></li>
-					<li><a href="#curriculum">Currículum Vitae</a></li>
-					<li><a href="#contacto">Contacto</a></li>
+					<li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+					<li><a href="#sobremi" onclick="seleccionar()">Acerca de mí</a></li>
+					<li><a href="#curriculum" onclick="seleccionar()">Currículum Vitae</a></li>
+					<li><a href="#portfolio" onclick="seleccionar()">Portfolio</a></li>
+					<li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
 				</ul>
 			</nav>
-			<div class="nav-responsive">
+			<div class="nav-responsive" onclick="mostrarOcultarMenu()">
 				<i class="fa-solid fa-bars"></i>
 			</div>
 		</header>
@@ -40,7 +41,7 @@
 					<a href="https://github.com/JairSA123?tab=repositories" target="_blank"><i class="fa-brands fa-github"></i></a>
 					<a href="" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
 					<a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-					<a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+					<a href="https://www.linkedin.com/in/cesar-jair-surichaqui-astete-51676b241/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
 				</div>
 			</div>
 		</section>
@@ -88,25 +89,288 @@
 								<i class="fa-solid fa-plane"></i>
 								<span>VIAJAR</span>
 							</div>
+							<div class="interes">
+								<i class="fa-solid fa-futbol"></i>
+								<span>DEPORTE</span>
+							</div>
+							<div class="interes">
+								<i class="fa-solid fa-laptop"></i>
+								<span>TECNOLOGIA</span>
+							</div>
+							<div class="interes">
+								<i class="fa-solid fa-car"></i>
+								<span>AUTOS</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<button><a class="cv" href="CV/Curriculum Jair Surichaqui.pdf" download="CV_Jair.pdf" >Descargar CV </a><i class="fa-solid fa-download"></i>
+						<span class="overlay"></span>
+				</button>
+			</div>
+
+		</section>
+	<!--SKILLS-->
+		<section class="skills" id="skills">
+			<div class="contenido-seccion">
+				<h2>Skills</h2>
+				<div class="fila">
+					<!--TECNICAL SKILLS-->
+					<div class="col">
+						<h3>Technical Skills</h3>
+						<div class="skill">
+							<span>Javascript</span>
+							<div class="barra-skill">
+								<div class="progreso javascript">
+									<span>50%</span>
+								</div>
+							</div>
+						</div>
+						<div class="skill">
+							<span>HTML</span>
+							<div class="barra-skill">
+								<div class="progreso html">
+									<span>70%</span>
+								</div>
+							</div>
+						</div>
+						<div class="skill">
+							<span>CSS</span>
+							<div class="barra-skill">
+								<div class="progreso css">
+									<span>70%</span>
+								</div>
+							</div>
+						</div>
+						<div class="skill">
+							<span>Figma</span>
+							<div class="barra-skill">
+								<div class="progreso figma">
+									<span>60%</span>
+								</div>
+							</div>
+						</div>
+						<div class="skill">
+							<span>Wordpress</span>
+							<div class="barra-skill">
+								<div class="progreso wordpress">
+									<span>50%</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--PROFESIONAL SKILLS-->
+					<div class="col">
+						<h3>Professional Skills</h3>
+						<div class="skill">
+							<span>Comunicación</span>
+							<div class="barra-skill">
+								<div class="progreso comunicacion">
+									<span>50%</span>
+								</div>
+							</div>
+						</div>
+						<div class="skill">
+							<span>Trabajo en equipo</span>
+							<div class="barra-skill">
+								<div class="progreso trabajoee">
+									<span>70%</span>
+								</div>
+							</div>
+						</div>
+						<div class="skill">
+							<span>Creatividad</span>
+							<div class="barra-skill">
+								<div class="progreso creatividad">
+									<span>70%</span>
+								</div>
+							</div>
+						</div>
+						<div class="skill">
+							<span>Dedicación</span>
+							<div class="barra-skill">
+								<div class="progreso dedicacion">
+									<span>60%</span>
+								</div>
+							</div>
+						</div>
+						<div class="skill">
+							<span>Puntualidad</span>
+							<div class="barra-skill">
+								<div class="progreso puntualidad">
+									<span>50%</span>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-
 		</section>
-		<section class="curriculum">
-			<div class="contenedor">
-				<h3 class="titulo">Currículum Vitae</h3>
-				<button class="descargarCv"><a class="cv" href="CV/Curriculum Jair Surichaqui.pdf" download="CV_Jair.pdf" >Descargar CV</a></button>
+	<!--CURRICULUM-->
+		<section id="curriculum" class="curriculum">
+			<div class="contenido-seccion">
+				<h2>Curriculum</h2>
+				<div class="fila">
+					<div class="col izquierda">
+						<h3>Educación</h3>
+						<div class="item izq">
+							<h4>Ingeniería de Software</h4>
+							<span class="casa">Universidad Tecnológica del Perú</span>
+							<span class="fecha">2019-Actualidad</span>
+							<div class="conectori">
+								<div class="circuloi"></div>
+							</div>
+						</div>
+						<div class="item izq">
+							<h4>Diseño y Desarrollo web</h4>
+							<span class="casa">UDEMY</span>
+							<span class="fecha">06/2023 - 06/2024</span>
+							<div class="conectori">
+								<div class="circuloi"></div>
+							</div>
+						</div>
+						<div class="item izq">
+							<h4>Pentester Mentor Junior</h4>
+							<span class="casa">HACKER MENTOR</span>
+							<span class="fecha">03/2024 - 05/2024</span>
+							<div class="conectori">
+								<div class="circuloi"></div>
+							</div>
+						</div>
+					</div>
+					<div class="col derecha">
+						<h3>Educación</h3>
+						<div class="item der">
+							<h4>Ingeniería de Software</h4>
+							<span class="casa">Universidad Tecnológica del Perú</span>
+							<span class="fecha">2019-Actualidad</span>
+							<div class="conectord">
+								<div class="circulod"></div>
+							</div>
+						</div>
+						<div class="item der">
+							<h4>Diseño y Desarrollo web</h4>
+							<span class="casa">UDEMY</span>
+							<span class="fecha">06/2023 - 06/2024</span>
+							<div class="conectord">
+								<div class="circulod"></div>
+							</div>
+						</div>
+						<div class="item der">
+							<h4>Pentester Mentor Junior</h4>
+							<span class="casa">HACKER MENTOR</span>
+							<span class="fecha">03/2024 - 05/2024</span>
+							<div class="conectord">
+								<div class="circulod"></div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
-		<section class="contacto">
-			<h3 class="titulo">Contacto</h2>
+	<!--SECCION PORTFOLIO-->
+		<section id="portfolio" class="portfolio">
+			<div class="contenido-seccion">
+				<h2>PORTFOLIO</h2>
+				<div class="galeria">
+					<div class="proyecto">
+						<img src="imagenes/j1.jpg" alt="">
+						<div class="overlay">
+							<h3>Diseño Creativo</h3>
+							<p>Fotografia</p>
+						</div>
+					</div>
+					<div class="proyecto">
+						<img src="imagenes/j1.jpg" alt="">
+						<div class="overlay">
+							<h3>Diseño Creativo</h3>
+							<p>Fotografia</p>
+						</div>
+					</div>
+					<div class="proyecto">
+						<img src="imagenes/j1.jpg" alt="">
+						<div class="overlay">
+							<h3>Diseño Creativo</h3>
+							<p>Fotografia</p>
+						</div>
+					</div>
+					<div class="proyecto">
+						<img src="imagenes/j1.jpg" alt="">
+						<div class="overlay">
+							<h3>Diseño Creativo</h3>
+							<p>Fotografia</p>
+						</div>
+					</div>
+					<div class="proyecto">
+						<img src="imagenes/j1.jpg" alt="">
+						<div class="overlay">
+							<h3>Diseño Creativo</h3>
+							<p>Fotografia</p>
+						</div>
+					</div>
+					<div class="proyecto">
+						<img src="imagenes/j1.jpg" alt="">
+						<div class="overlay">
+							<h3>Diseño Creativo</h3>
+							<p>Fotografia</p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
+	<!--SECCION CONTACTO-->
+	<section id="contacto" class="contacto">
+		<div class="contenido-seccion">
+			<h2>CONTACTO</h2>
+			<div class="fila">
+				<!--FORMULARIO-->
+				<div class="col">
+					<input type="text" placeholder="Tú Nombre">
+					<input type="text" placeholder="Número telefónico">
+					<input type="text" placeholder="Dirección de correo">
+					<input type="text" placeholder="Tema">
+					<textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+					<button>
+						Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+						<span class="overlay"></span>
+					</button>
+				</div>
+				<!--MAPA-->
+				<div class="col">
+					<img src="imagenes/mapaH.jpeg" alt="">
+					<div class="info">
+						<ul>
+							<li>
+								<i class="fa-solid fa-location-dot"></i>
+								Perú, Lima, Ate
+							</li>
+							<li>
+								<i class="fa-solid fa-mobile-screen"></i>
+								LLamanos: 937345096
+							</li>
+							<li>
+								<i class="fa-solid fa-envelope"></i>
+								Gmail: jairastete123@gmail.com
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--FOOTER-->
 	<footer>
-		
-		
+		<a href="#inicio" class="arriba">
+			<i class="fa-solid fa-angles-up"></i>
+		</a>
+		<div class="redes">
+			<a href="https://github.com/JairSA123?tab=repositories" target="_blank"><i class="fa-brands fa-github"></i></a>
+			<a href="" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+			<a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+			<a href="https://www.linkedin.com/in/cesar-jair-surichaqui-astete-51676b241/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+		</div>
 	</footer>
     
+	<script src="script.js"></script>
 </body>
 </html>
